@@ -41,14 +41,14 @@ public class CalculadoraTest {
 
 		log.info("Info test multiplicar numeros");
 		Calculadora multi = new Calculadora(5, 5);
-		Integer respMulti = call.restar(multi);
+		Integer respMulti = call.multiplicar(multi);
 		equals(respMulti);
 
 	}
 
 	@Test
 	public void dividir() {
-		log.info("info test multiplicar numeros");
+		log.info("info test dividir numeros");
 		Calculadora div = new Calculadora(5, 5);
 		Integer respDiv = call.dividir(div);
 		equals(respDiv);
